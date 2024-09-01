@@ -96,12 +96,11 @@ a {
     }
 
     .button {
-        width: 60%;
+        width: 50%;
         height: 40px;
         font-size: 14px;
         text-align: center;
         display: inline-block;
-        position: absolute;
     }
 
 }
