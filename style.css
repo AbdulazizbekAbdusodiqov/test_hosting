@@ -101,6 +101,7 @@ a {
         font-size: 14px;
         text-align: center;
         display: inline-block;
+        position: absolute;
     }
 
 }
