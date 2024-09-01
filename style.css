@@ -1,38 +1,3 @@
-@media (max-width: 750px) {
-    /* Telefon ekranlari uchun uslublar */
-    body {
-        font-size: 16px;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
-    .header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    ul {
-        margin-left: 0;
-        flex-direction: column;
-        padding: 0;
-    }
-
-    ul li {
-        margin: 5px 0;
-    }
-
-    .main {
-        width: 100%;
-        padding: 10px;
-        font-size: 16px;
-    }
-
-    .button {
-        width: 100%;
-        font-size: 14px;
-    }
-}
 body {
     font-family: serif;
     margin: 0;
@@ -98,4 +63,44 @@ a {
     width: 600px;
     padding: 20px;
     font-size: 20px;
+}
+
+
+@media (max-width: 400px) {
+    /* Telefon ekranlari uchun uslublar */
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .header {
+        display: block;
+    }
+    h1{
+        margin: 10px;
+    }
+    ul,li,a {
+        padding: 0;
+        margin-left: 10px;
+    }
+
+    ul li {
+        margin: 5px 0;
+    }
+
+    .main {
+        width: 90%;
+        padding: 10px;
+        margin: 10px;
+        font-size: 10px;
+    }
+
+    .button {
+        width: 60%;
+        height: 40px;
+        font-size: 14px;
+        text-align: center;
+        display: inline-block;
+    }
+
 }
